@@ -58,6 +58,6 @@ public class AboutFlight {
 
         @Override
         public String toString() {
-            return "Flight: \nFlight Number=\t" + flightNumber + "\nCompany=\t" + company + "\nDay=\t" + weekdays + "\nSource=\t" + source + "\nDestination=\t" + destination;
+            return "Flight: \nFlight Number=\t" + flightNumber + "\nCompany=\t" + company + "\nAirline=\t"+ airline + "\nDay=\t" + weekdays + "\nSource=\t" + source + "\nDestination=\t" + destination;
         }
     }
