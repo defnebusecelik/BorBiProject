@@ -1,8 +1,10 @@
 package javasrc.model;
 public class Airline {
         protected String airlineId;
-        protected int countryId;
-        protected int cityId;
+        protected int airlineCountryId;
+        protected int airlineCityId;
+        protected String airlineCountryName;
+        protected String airlineCityName;
         protected String airlineName;
 
         public Airline() {
@@ -13,23 +15,39 @@ public class Airline {
             this.airlineName = airlineName;
         }
 
-        public Airline(int countryId, int cityId, String airlineName) {
-            this.countryId = countryId;
-            this.cityId= cityId;
+        public Airline(int airlineCountryId, int airlineCityId, String airlineName) {
+            this.airlineCountryId = airlineCountryId;
+            this.airlineCityId= airlineCityId;
             this.airlineName = airlineName;
         }
 
-        public Airline(String airlineId,int countryId, int cityId) {
+        public Airline(String airlineId,int airlineCountryId, int airlineCityId) {
             this.airlineId=airlineId;
-            this.countryId = countryId;
-            this.cityId= cityId;
+            this.airlineCountryId = airlineCountryId;
+            this.airlineCityId= airlineCityId;
     }
 
-        public Airline(String airlineId, int countryId, int cityId, String airlineName) {
+        public Airline(String airlineId, int airlineCountryId, int airlineCityId, String airlineName) {
             this.airlineId = airlineId;
-            this.countryId = countryId;
-            this.cityId = cityId;
-            this.airlineName = airlineId;
+            this.airlineCountryId = airlineCountryId;
+            this.airlineCityId = airlineCityId;
+            this.airlineName = airlineName;
+        }
+
+        public Airline(int id, int airlineCountryId, int airlineCityId, String airlineName,String airlineId) {
+            this.airlineCountryId = airlineCountryId;
+            this.airlineCityId = airlineCityId;
+            this.airlineName = airlineName;
+            this.airlineId = airlineId;
+        }
+
+        public Airline(String airlineId, int airlineCountryId, int airlineCityId, String airlineName,String airlineCountryName, String airlineCityName) {
+            this.airlineId = airlineId;
+            this.airlineCountryId = airlineCountryId;
+            this.airlineCityId = airlineCityId;
+            this.airlineName = airlineName;
+            this.airlineCountryId=airlineCountryId;
+            this.airlineCityId=airlineCityId;
         }
 
 
@@ -41,20 +59,36 @@ public class Airline {
             this.airlineId = airlineId;
         }
 
-        public int getCountryId() {
-            return countryId;
+        public int getAirlineCountryId() {
+            return airlineCountryId;
         }
 
-        public void setCountryId(int countryId) {
-            this.countryId = countryId;
+        public void setAirlineCountryId(int airlineCountryId) {
+            this.airlineCountryId = airlineCountryId;
         }
 
-        public int getCityId() {
-            return cityId;
+        public int getAirlineCityId() {
+            return airlineCityId;
         }
 
-        public void setCityId(int cityId) {
-            this.cityId = cityId;
+        public void setAirlineCityId(int airlineCityId) {
+            this.airlineCityId = airlineCityId;
+        }
+
+        public String getAirlineCountryName() {
+            return airlineCountryName;
+        }
+
+        public void setAirlineCountryName(String airlineCountryName) {
+            this.airlineCountryName = airlineCountryName;
+        }
+
+        public String getAirlineCityName() {
+            return airlineCityName;
+        }
+
+        public void setAirlineCityName(String airlineCityName) {
+            this.airlineCityName = airlineCityName;
         }
 
         public String getAirlineName() {
@@ -64,5 +98,4 @@ public class Airline {
         public void setAirlineName(String airlineName) {
             this.airlineName = airlineName;
         }
-
     }
