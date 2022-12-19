@@ -8,7 +8,7 @@ public class Flight {
         protected String flightHour;
         protected String flightTime;
         protected int companyId;
-        protected int planeId;
+        protected String planeId;
         protected double ticketPayment;
         protected String companyName;
         protected String startClock;
@@ -17,7 +17,7 @@ public class Flight {
         public Flight() {
         }
 
-        public Flight(int flightId, int startClockId, int endClockId, String flightDate, String flightHour, String flightTime, int companyId, int planeId, double ticketPayment) {
+        public Flight(int flightId, int startClockId, int endClockId, String flightDate, String flightHour, String flightTime, int companyId, String planeId, double ticketPayment) {
             this.flightId= flightId;
             this.startClockId = startClockId;
             this.endClockId = endClockId;
@@ -29,7 +29,7 @@ public class Flight {
             this.ticketPayment = ticketPayment;
         }
 
-        public Flight(int startClockId, int endClockId, String flightDate, String flightTime, int companyId, int planeId, double ticketPayment) {
+        public Flight(int startClockId, int endClockId, String flightDate, String flightTime, int companyId, String planeId, double ticketPayment) {
             this.startClockId = startClockId;
             this.endClockId = endClockId;
             this.flightDate = flightDate;
@@ -39,13 +39,14 @@ public class Flight {
             this.ticketPayment = ticketPayment;
         }
 
-        public Flight(int flightId, String flightDate, String flightHour, String flightTime, double ticketPayment, String companyName, String startClock, String endClock) {
+        public Flight(int flightId, String flightDate, String flightHour, String flightTime, double ticketPayment, String companyName, String planeId, String startClock, String endClock) {
             this.flightId = flightId;
             this.flightDate = flightDate;
             this.flightHour = flightHour;
             this.flightTime = flightTime;
             this.ticketPayment = ticketPayment;
             this.companyName = companyName;
+            this.planeId=planeId;
             this.startClock = startClock;
             this.endClock = endClock;
         }
@@ -91,7 +92,7 @@ public class Flight {
             this.flightHour = flightHour;
         }
 
-        public String getFlightTimet() {
+        public String getFlightTime() {
             return flightTime;
         }
 
@@ -107,11 +108,11 @@ public class Flight {
             this.companyId = companyId;
         }
 
-        public int getPlaneId() {
+        public String getPlaneId() {
             return planeId;
         }
 
-        public void setPlaneId(int planeId) {
+        public void setPlaneId(String planeId) {
             this.planeId = planeId;
         }
 
