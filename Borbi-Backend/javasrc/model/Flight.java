@@ -16,6 +16,10 @@ public class Flight {
 
         public Flight() {
         }
+        
+        public Flight(String planeId){
+            this.planeId=planeId;
+        }
 
         public Flight(int flightId, int startClockId, int endClockId, String flightDate, String flightHour, String flightTime, int companyId, String planeId, double ticketPayment) {
             this.flightId= flightId;
