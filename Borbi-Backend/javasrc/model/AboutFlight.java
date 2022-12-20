@@ -4,7 +4,7 @@ public class AboutFlight {
         protected int seat;
         protected int companyId;
         protected String companyName;
-        protected String airline;
+        protected String airlineName;
 
         public AboutFlight() {
         }
@@ -30,6 +30,13 @@ public class AboutFlight {
             this.companyName =companyName;
         }
 
+        public AboutFlight(int flightId ,String companyName ,int seat,int companyId){
+            this.flightId=flightId;
+            this.companyName=companyName;
+            this.seat=seat;
+            this.companyId=companyId;
+        }
+
         public int getFlightId() {
             return flightId;
         }
@@ -38,12 +45,12 @@ public class AboutFlight {
             this.flightId = flightId;
         }
 
-        public String getAirline() {
-        return airline;
+        public String getAirlineName() {
+        return airlineName;
         }
 
-        public void setAirline(String airline) {
-        this.airline = airline;
+        public void setAirlineName(String airlineName) {
+        this.airlineName = airlineName;
         }
 
         public int getSeat() {
