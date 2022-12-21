@@ -16,21 +16,21 @@ public class AboutUserSql {
         private final String jdbcPassword = "";
 
 
-        private static final String USER_INSERT = "INSERT INTO aboutUser" +
-                "  (userName, userLastName, userMail, userPassword) VALUES " +
-                " (?, ?, ?, ?);";
-        private static final String USER_SELECT_ID = "select * from aboutUser where userId=?;";
-        private static final String USER_DELETE = "delete from aboutUser where userId = ?;";
-        private static final String USER_SELECT_EMAIL = "select * from aboutUser where userMail = ?;";
-        private static final String USER_SELECT_ALL = "select * from aboutUser;";
-        private static final String USER_SELECT_EMAIL_PASSWORD = "select * from aboutUser where userMail = ? and userPassword = ?;";
-        private static final String USER_INSERT_ADMIN ="INSERT INTO aboutUser (userName, userLastName, userMail, userPassword) VALUES (?,?,?,?);";
-        private static final String USER_UPDATE = "update aboutUser set userName = ?, userLastName = ?, userMail = ?, userPassword = ? where userId = ?;";
-        private static final String PROFIL_UPDATE = "update aboutUser set userName= ?, userLastName = ?, userMail = ? where userId= ?;";
-        private static final String ADMIN_SELECT_EMAIL_PASSWORD = "select * from aboutUser where userMail = ? and userPassword = ?;";
-        private static final String PASSWORD_CONTROL_SELECT = "select * from aboutUser where userId=? and userPassword=?;";
-        private static final String PASSWORD_UPDATE = "update aboutUser set userPassword = ? where userId = ?;";
-        private static final String ACCOUNT_DELETE = "delete from aboutUser where userId = ?;";
+        private static final String USER_INSERT = "INSERT INTO aboutuser.aboutUser" +
+                "  (userName, userLastName, userMail, userPassword)" +
+                " VALUES (?, ?, ?, ?);";
+        private static final String USER_SELECT_ID = "select * from aboutuser.aboutUser where userId=?;";
+        private static final String USER_DELETE = "delete from aboutuser.aboutUser where userId = ?;";
+        private static final String USER_SELECT_EMAIL = "select * from aboutuser.aboutUser where userMail = ?;";
+        private static final String USER_SELECT_ALL = "select * from abotuser.aboutUser;";
+        private static final String USER_SELECT_EMAIL_PASSWORD = "select * from aboutuser.aboutUser where userMail = ? and userPassword = ?;";
+        private static final String USER_INSERT_ADMIN ="INSERT INTO aboutuser.aboutUser (userName, userLastName, userMail, userPassword) VALUES (?,?,?,?);";
+        private static final String USER_UPDATE = "update aboutuser.aboutUser set userName = ?, userLastName = ?, userMail = ?, userPassword = ? where userId = ?;";
+        private static final String PROFIL_UPDATE = "update aboutuser.aboutUser set userName= ?, userLastName = ?, userMail = ? where userId= ?;";
+        private static final String ADMIN_SELECT_EMAIL_PASSWORD = "select * from aboutuser.aboutUser where userMail = ? and userPassword = ?;";
+        private static final String PASSWORD_CONTROL_SELECT = "select * from aboutuser.aboutUser where userId=? and userPassword=?;";
+        private static final String PASSWORD_UPDATE = "update aboutuser.aboutUser set userPassword = ? where userId = ?;";
+        private static final String ACCOUNT_DELETE = "delete from aboutuser.aboutUser where userId = ?;";
 
 
         public AboutUserSql() {
