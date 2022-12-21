@@ -13,7 +13,7 @@ import javasrc.model.AboutUser;
 public class AboutUserSql {
 
         private final String jdbcURL = "jdbc:mysql://localhost:";
-        private final String jdbcUsername = "";
+        private final String jdbcUsername = "root";
         private final String jdbcPassword = "";
 
 
