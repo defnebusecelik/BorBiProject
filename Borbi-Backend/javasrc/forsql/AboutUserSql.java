@@ -5,7 +5,7 @@ import java.sql.Connection;
 import java.sql.PreparedStatement;
 import java.sql.SQLException;
 import java.sql.ResultSet;
-import com.mysql.jdbc.Connection;
+import com.mysql.jdbc.*;
 import java.util.ArrayList;
 import java.util.List;
 import javasrc.model.AboutUser;
