@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<form xmlns="http://www.intellij.com/uidesigner/form/" version="1" bind-to-class="flightSwing">
+  <grid id="27dc6" binding="Panel2" layout-manager="GridLayoutManager" row-count="5" column-count="9" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+    <margin top="0" left="0" bottom="0" right="0"/>
+    <constraints>
+      <xy x="20" y="20" width="680" height="400"/>
+    </constraints>
+    <properties>
+      <background color="-12866885"/>
+      <foreground color="-12866885"/>
+    </properties>
+    <border type="none"/>
+    <children>
+      <vspacer id="a4d34">
+        <constraints>
+          <grid row="3" column="8" row-span="2" col-span="1" vsize-policy="6" hsize-policy="1" anchor="0" fill="2" indent="0" use-parent-layout="false"/>
+        </constraints>
+      </vspacer>
+      <vspacer id="37ed0">
+        <constraints>
+          <grid row="0" column="8" row-span="1" col-span="1" vsize-policy="6" hsize-policy="1" anchor="0" fill="2" indent="0" use-parent-layout="false"/>
+        </constraints>
+      </vspacer>
+      <component id="8a4d6" class="javax.swing.JLabel">
+        <constraints>
+          <grid row="1" column="6" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <text value="To"/>
+        </properties>
+      </component>
+      <component id="dff97" class="javax.swing.JLabel">
+        <constraints>
+          <grid row="2" column="6" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <text value="Return on"/>
+        </properties>
+      </component>
+      <component id="cc341" class="javax.swing.JComboBox" binding="comboBox3" default-binding="true">
+        <constraints>
+          <grid row="2" column="7" row-span="1" col-span="1" vsize-policy="0" hsize-policy="2" anchor="8" fill="1" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties/>
+      </component>
+      <component id="caa54" class="javax.swing.JComboBox" binding="comboBox2" default-binding="true">
+        <constraints>
+          <grid row="1" column="7" row-span="1" col-span="1" vsize-policy="0" hsize-policy="2" anchor="8" fill="1" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties/>
+      </component>
+      <component id="ad178" class="javax.swing.JTextField" binding="textField1" default-binding="true">
+        <constraints>
+          <grid row="3" column="3" row-span="2" col-span="4" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
+            <preferred-size width="150" height="-1"/>
+          </grid>
+        </constraints>
+        <properties/>
+      </component>
+      <component id="e1c10" class="javax.swing.JLabel">
+        <constraints>
+          <grid row="3" column="2" row-span="2" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <text value="Traveller"/>
+        </properties>
+      </component>
+      <component id="2be5c" class="javax.swing.JComboBox" binding="comboBox4" default-binding="true">
+        <constraints>
+          <grid row="2" column="3" row-span="1" col-span="1" vsize-policy="0" hsize-policy="2" anchor="8" fill="1" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties/>
+      </component>
+      <component id="fbe48" class="javax.swing.JLabel">
+        <constraints>
+          <grid row="1" column="2" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <text value="From"/>
+        </properties>
+      </component>
+      <component id="323f0" class="javax.swing.JLabel">
+        <constraints>
+          <grid row="2" column="2" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <text value="Depart on"/>
+        </properties>
+      </component>
+      <component id="2912d" class="javax.swing.JButton" binding="goToPaymentsButton" default-binding="true">
+        <constraints>
+          <grid row="3" column="7" row-span="2" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <text value="Go To Payments"/>
+        </properties>
+      </component>
+      <component id="ddeec" class="javax.swing.JLabel">
+        <constraints>
+          <grid row="0" column="3" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <font name="Segoe UI Black" size="26"/>
+          <text value="TICKET INFORMATIONS"/>
+        </properties>
+      </component>
+      <hspacer id="5ce2a">
+        <constraints>
+          <grid row="2" column="0" row-span="1" col-span="1" vsize-policy="1" hsize-policy="6" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+        </constraints>
+      </hspacer>
+      <hspacer id="1c3d">
+        <constraints>
+          <grid row="1" column="5" row-span="1" col-span="1" vsize-policy="1" hsize-policy="6" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+        </constraints>
+      </hspacer>
+      <hspacer id="aa205">
+        <constraints>
+          <grid row="1" column="4" row-span="1" col-span="1" vsize-policy="1" hsize-policy="6" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+        </constraints>
+      </hspacer>
+      <hspacer id="1dcb7">
+        <constraints>
+          <grid row="1" column="1" row-span="1" col-span="1" vsize-policy="1" hsize-policy="6" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+        </constraints>
+      </hspacer>
+      <component id="e16ad" class="javax.swing.JComboBox" binding="comboBox1" default-binding="true">
+        <constraints>
+          <grid row="1" column="3" row-span="1" col-span="1" vsize-policy="0" hsize-policy="2" anchor="8" fill="1" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties/>
+      </component>
+    </children>
+  </grid>
+</form>
