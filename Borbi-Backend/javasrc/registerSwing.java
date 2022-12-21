@@ -3,7 +3,7 @@ import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
 
 
-public class Interface1 extends JFrame {
+public class registerSwing extends JFrame {
     private JTextField textField1;
     private JTextField textField2;
     private JTextField textField3;
@@ -14,7 +14,7 @@ public class Interface1 extends JFrame {
     private JLabel label2;
     private JLabel label3;
 
-    public Interface1(){
+    public registerSwing(){
         add(Panel1);
         setSize(500,500);
         setTitle("Flight");
