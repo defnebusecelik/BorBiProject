@@ -8,10 +8,10 @@
 <html lang="tr">
 <head>
 <title>BorBi|Uygun Bileti Al!</title>
-<jsp:include page="/WEB-INF/header.jsp" />
+<jsp:include file="/WEB-INF/header.jsp" />
 </head>
 
-<jsp:include page="/WEB-INF/navbar.jsp" />
+<jsp:include file="/WEB-INF/navbar.jsp" />
 
 <div id="home">
     <div class="hero-text w-100 text-white px-2 px-sm-0">
@@ -115,8 +115,8 @@
 </script>
 <section class="pt-5">
     <div class="intro">
-        <h1 class="text-center intro_title">Gönül rahatlığıyla rezervasyon yapın</h1>
-        <p class="text-center intro_subtitle">Koşulsuz bilet iptali, online değişiklik, kayıtlı kart ve daha fazlası</p>
+        <h1 class="text-center intro_title">Bilet rezervasyonunuzu BorBi ile yapın!</h1>
+        <p class="text-center intro_subtitle">Koşulsuz bilet iptali, online değişiklik, daha fazlası</p>
     </div>
     <div class="">
         <div class="container">
@@ -125,78 +125,19 @@
                     <img class="intro_card-img-top mx-auto" src="assets/images/safe-ticket.png" alt="Card image cap">
                         <div class="card-body">
                             <h5 class="card-title text-center">Koşulsuz Bilet İptali</h5>
-                            <p class="card-text text-center">Uçuşa 2 saat kalana kadar bilet ücretinin %90'ı iade.</p>
                         </div>
                 </div>
                 <div class="card">
                     <img class="intro_card-img-top mx-auto" src="assets/images/magnifier.png" alt="Card image cap">
                         <div class="card-body">
                             <h5 class="card-title text-center">Online İptal ve Değişiklik</h5>
-                            <p class="card-text text-center">İptal veya değişiklik işlemini online yaparak zamandan tasarruf edersin.</p>
                         </div>
                 </div>
                 <div class="card">
                     <img class="intro_card-img-top mx-auto" src="assets/images/kart-saklama-mobil-telefon.png" alt="Card image cap">
                         <div class="card-body">
-                            <h5 class="card-title text-center">Kayıtlı Kart</h5>
-                            <p class="card-text text-center">Tüm bilgilerini bir kez kaydet, biletlerini hızlıca al.</p>
-                        </div>
-                </div>
-            </div>
-        </div>
-    </div>
-</section>
-<section>
-    <div class="container">
-        <div class="intro">
-            <h1 class="intro_title">Görmeniz Gereken Şehirler</h1>
-        </div>
-        <div class="row">
-            <div class="col-md-4">
-                <div class="card">
-                    <img src="assets/images/milano.webp" class="card-img-top" alt="...">
-                        <div class="card-body">
-                            <h5 class="card-title">Milano</h5>
-                        </div>
-                </div>
-            </div>
-            <div class="col-md-4">
-                <div class="card">
-                    <img src="assets/images/berlin.webp" class="card-img-top" alt="...">
-                        <div class="card-body">
-                            <h5 class="card-title">Berlin</h5>
-                        </div>
-                </div>
-            </div>
-            <div class="col-md-4">
-                <div class="card">
-                    <img src="assets/images/viyana.webp" class="card-img-top" alt="...">
-                        <div class="card-body">
-                            <h5 class="card-title">Viyana</h5>
-                        </div>
-                </div>
-            </div>
-            <div class="col-md-4">
-                <div class="card">
-                    <img src="assets/images/kiev.webp" class="card-img-top" alt="...">
-                        <div class="card-body">
-                            <h5 class="card-title">Kiev</h5>
-                        </div>
-                </div>
-            </div>
-            <div class="col-md-4">
-                <div class="card">
-                    <img src="assets/images/prag.webp" class="card-img-top" alt="...">
-                        <div class="card-body">
-                            <h5 class="card-title">Prag</h5>
-                        </div>
-                </div>
-            </div>
-            <div class="col-md-4">
-                <div class="card">
-                    <img src="assets/images/belgrad.webp" class="card-img-top" alt="...">
-                        <div class="card-body">
-                            <h5 class="card-title">Belgrad</h5>
+                            <h5 class="card-title text-center">Kayıtlı Üye</h5>
+                            <p class="card-text text-center">Bilgilerini BorBi'ye kaydet, biletlerini hızlıca al!</p>
                         </div>
                 </div>
             </div>
@@ -204,45 +145,6 @@
     </div>
 </section>
 <hr class="test_border">
-<section class="container">
-    <div class="intro">
-        <h1 class="intro_title">Kısa Plaj Tatili için En İyi Noktalar</h1>
-    </div>
-    <div class="row">
-        <div class="col-md-3">
-            <div class="card">
-                <img src="assets/images/tr.jpg" class="card-img-top" alt="...">
-                    <div class="card-body">
-                        <h5 class="card-title">Türkiye</h5>
-                    </div>
-            </div>
-        </div>
-        <div class="col-md-3">
-            <div class="card">
-                <img src="assets/images/italya.jpg" class="card-img-top" alt="...">
-                    <div class="card-body">
-                        <h5 class="card-title">İtalya</h5>
-                    </div>
-            </div>
-        </div>
-        <div class="col-md-3">
-            <div class="card">
-                <img src="assets/images/tayland.jpg" class="card-img-top" alt="...">
-                    <div class="card-body">
-                        <h5 class="card-title">Tayland</h5>
-                    </div>
-            </div>
-        </div>
-        <div class="col-md-3">
-            <div class="card">
-                <img src="assets/images/yunanistan.jpg" class="card-img-top" alt="...">
-                    <div class="card-body">
-                        <h5 class="card-title">Yunanistan</h5>
-                    </div>
-            </div>
-        </div>
-    </div>
-</section>
 <section>
     <div class="cta mt-5 mb-5">
         <form action="uyeol" method="post">
@@ -260,26 +162,19 @@
                 <div class="card">
                     <img class="intro_card-img-top mx-auto" src="assets/images/1.svg" alt="Card image cap">
                         <div class="card-body">
-                            <h5 class="card-title text-center">İstediğiniz yere gidin</h5>
-                            <p class="card-text text-center">Bu sizin dünyanız ve keşfetmenize yardımcı olacağız. En mükemmel seyahati planlamak için milyonlarca uçuş rezervasyon seçeneği arasından en iyi fiyatları bulun.</p>
-                        </div>
-                </div>
-                <div class="card">
-                    <img class="intro_card-img-top mx-auto" src="assets/images/2.svg" alt="Card image cap">
-                        <div class="card-body">
-                            <h5 class="card-title text-center">Karmaşaya yer yok</h5>
-                            <p class="card-text text-center">Hiçbir gizli ücret yok. Hiçbir gizli masraf yok. Hiçbir hile yok. Bizimle rezervasyon yaparken paranızı tam olarak nereye harcadığınızı her zaman bilirsiniz. Böylece daha seyahatiniz başlamadan rahatlayabilirsiniz.</p>
+                            <h5 class="card-title text-center">İstediğiniz yere BorBi ile gidin</h5>
+                            <p class="card-text text-center">En mükemmel seyahati planlamak için seçenekler arasından kendinize uygun olanı bulun.</p>
                         </div>
                 </div>
                 <div class="card">
                     <img class="intro_card-img-top mx-auto" src="assets/images/3.svg" alt="Card image cap">
                         <div class="card-body">
-                            <h5 class="card-title text-center">İstediğiniz gibi seyahat edin</h5>
-                            <p class="card-text text-center">Nereye gitmek istediğinizi biliyor musunuz? Rezervasyon yapmak için en uygun zamanı görün. Tarihleriniz esnek mi? Kısa molalardan müthiş maceralara tüm fırsatları keşfedin.</p>
+                            <h5 class="card-title text-center">İstediğiniz gibi seyahat edin..</h5>
+                            <p class="card-text text-center">Rezervasyon yapmak için en uygun zamanı görün.</p>
                         </div>
                 </div>
             </div>
         </div>
     </div>
 </section>
-<%@ include file = "footer.jsp" %>
+<jsp:include file="/WEB-INF/footer.jsp" />
