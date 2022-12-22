@@ -1,17 +1,23 @@
+<%@ page language="java" contentType="text/html; charset=UTF-8"
+    pageEncoding="UTF-8"%>
+<%@ taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core"%>
+<%@ page import="java.util.ArrayList" %>
+<%@ page import="java.util.List" %>
+
 <!DOCTYPE html>
-<html>
+<html lang="tr">
 <head>
-<meta charset="ISO-8859-1">
-<title>Insert title here</title>
+<title>BorBi|Uygun Bileti Al!</title>
+<jsp:include page="/WEB-INF/header.jsp" />
 </head>
 
-<%@ include file = "header.jsp" %>
-<%@ include file = "navigasyon.jsp" %>
+<jsp:include page="/WEB-INF/navbar.jsp" />
+
 <div id="home">
     <div class="hero-text w-100 text-white px-2 px-sm-0">
         <h1 class="display-4">Merhaba</h1>
-        <h3 class="lead mb-4">Nereyi Keşfetmek İstersiniz ?</h3>
-        <a href="#booking" class="btn px-5 shadow-none">Planla &amp; Uç</a>
+        <h3 class="lead mb-4">Nereye Gitmek İstersiniz ?</h3>
+        <a href="#booking" class="btn px-5 shadow-none">Filtrele &amp; Seç</a>
     </div>
 </div>
 <main>
