@@ -1,5 +1,5 @@
 -- phpMyAdmin SQL Dump
--- version 8.0.31
+-- version 5.2.0
 -- https://www.phpmyadmin.net/
 
 
