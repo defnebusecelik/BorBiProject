@@ -8,14 +8,14 @@
 <html lang="tr">
 <head>
 <title>BorBi|Uygun Bileti Al!</title>
-<jsp:include file="/WEB-INF/header.jsp" />
+<jsp:include file="/header.jsp" />
 </head>
 
-<jsp:include file="/WEB-INF/navbar.jsp" />
+<jsp:include file="/navbar.jsp" />
 
 <div id="home">
     <div class="hero-text w-100 text-white px-2 px-sm-0">
-        <h1 class="display-4">Merhaba</h1>
+        <h1 class="display-4">Hoş geldiniz</h1>
         <h3 class="lead mb-4">Nereye Gitmek İstersiniz ?</h3>
         <a href="#booking" class="btn px-5 shadow-none">Filtrele &amp; Seç</a>
     </div>
@@ -177,4 +177,4 @@
         </div>
     </div>
 </section>
-<jsp:include file="/WEB-INF/footer.jsp" />
+<jsp:include file="/footer.jsp" />
