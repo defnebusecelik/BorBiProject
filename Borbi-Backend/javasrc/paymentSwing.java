@@ -3,55 +3,30 @@ import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
 
 public class paymentSwing extends JFrame {
-    private JPanel Panel2;
-    private JComboBox comboBox1;
-    private JComboBox comboBox2;
-    private JComboBox comboBox3;
-    private JComboBox comboBox4;
     private JTextField textField1;
-    private JButton goToPaymentsButton;
+    private JTextField textField2;
+    private JTextField textField3;
+    private JPanel Panel3;
+    private JButton buyButton;
+    private JLabel icon3;
+    private JTextField textField4;
 
     public paymentSwing(){
-        add(Panel2);
+        ImageIcon icon=new ImageIcon("image/image.jpg");
+        setIconImage(icon.getImage());
+        icon3.setIcon(new ImageIcon("image/blue.jpg"));
+        add(Panel3);
         setSize(600,600);
         setTitle("Flight");
         setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
 
-        textField1.addActionListener(new ActionListener() {
+
+        buyButton.addActionListener(new ActionListener() {
             @Override
             public void actionPerformed(ActionEvent e) {
 
             }
         });
-
-        comboBox1.addActionListener(new ActionListener() {
-            @Override
-            public void actionPerformed(ActionEvent e) {
-
-            }
-        });
-
-        comboBox2.addActionListener(new ActionListener() {
-            @Override
-            public void actionPerformed(ActionEvent e) {
-
-            }
-        });
-
-        comboBox3.addActionListener(new ActionListener() {
-            @Override
-            public void actionPerformed(ActionEvent e) {
-
-            }
-        });
-
-        comboBox4.addActionListener(new ActionListener() {
-            @Override
-            public void actionPerformed(ActionEvent e) {
-
-            }
-        });
-
 
     }
 
